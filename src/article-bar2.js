@@ -1,7 +1,4 @@
-import React from 'react';
-import './article-bar.css';
-import './index.css';
-import {Iscrizione1, Iscrizione2, Iscrizione3, Iscrizione4, Iscrizione5, Iscrizione6, Iscrizione7, Iscrizione8} from './images/indexArticleBar.js';
+export {ArticleBar,Header};
 
 
 function ArticleBar() {
@@ -49,7 +46,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item7">
-                    <img src={Iscrizione2} alt="Iscrizione2" />
+                    <img src={Iscrizione2} />
                 </div>
                 <div class="item8"> 10 gadget imperdibili di Amazon
                     <br /><br />
@@ -62,7 +59,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item9">
-                    <img src={Iscrizione3} alt="Iscrizione3" />
+                    <img src={Iscrizione3} />
                 </div>
                 <div class="item10"> Le grandi scoperte di...
                     <br /><br />
@@ -75,7 +72,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item11">
-                    <img src={Iscrizione4} alt="Iscrizione4" />
+                    <img src={Iscrizione4} />
                 </div>
                 <div class="item12"> 20 curiosit&agrave; dal Giappone
                     <br /><br />
@@ -115,7 +112,7 @@ function ArticleBar() {
 <br />
             <div class="video-col-tx">
                 <div class="item5">
-                    <img src={Iscrizione5} alt="Iscrizione5" />
+                    <img src={Iscrizione5} />
                 </div> 
                 <div class="item6"> 10 alimenti con pi&ugrave; vitamina C
                     <br /><br />
@@ -128,7 +125,7 @@ function ArticleBar() {
             </div>
 
                 <div class="item7">
-                    <img src={Iscrizione6} alt="Iscrizione6" />
+                    <img src={Iscrizione6} />
                 </div>
                 <div class="item8"> Difesa da pugno basso
                     <br /><br />
@@ -141,7 +138,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item9">
-                    <img src={Iscrizione7} alt="Iscrizione7" />
+                    <img src={Iscrizione7} />
                 </div>
                 <div class="item10"> Top ten - Western Conference
                     <br /><br />
@@ -154,7 +151,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item11">
-                    <img src={Iscrizione8} alt="Iscrizione8" />
+                    <img src={Iscrizione8} />
                 </div>
                     <div class="item12"> Kata Shotokan
                     <br /><br />
@@ -198,7 +195,7 @@ function ArticleBar() {
 <br />
             <div class="video-col-tx">
                 <div class="item5">
-                    <img src={Iscrizione1} alt="Iscrizione1" />
+                    <img src={Iscrizione1} />
                 </div> 
                 <div class="item6"> Il mistero della strana pioggia
                     <br /><br />
@@ -211,7 +208,7 @@ function ArticleBar() {
             </div>
 
                 <div class="item7">
-                    <img src={Iscrizione2} alt="Iscrizione2" />
+                    <img src={Iscrizione2} />
                 </div>
                     <div class="item8"> 10 gadget imperdibili di Amazon
                     <br /><br />
@@ -224,7 +221,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item9">
-                    <img src={Iscrizione3} alt="Iscrizione3" />
+                    <img src={Iscrizione3} />
                 </div>
                     <div class="item10"> Le grandi scoperte di...
                     <br /><br />
@@ -237,7 +234,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item11">
-                    <img src={Iscrizione4} alt="Iscrizione4" />
+                    <img src={Iscrizione4} />
                 </div>
                     <div class="item12"> 20 curiosit&agrave; dal Giappone
                     <br /><br />
@@ -278,7 +275,7 @@ function ArticleBar() {
 <br />
             <div class="video-col-tx">
                 <div class="item5">
-                    <img src={Iscrizione5} alt="Iscrizione5" />
+                    <img src={Iscrizione5} />
                 </div> 
                 <div class="item6"> 10 alimenti con pi&ugrave; vitamina C
                     <br /><br />
@@ -291,7 +288,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item7">
-                    <img src={Iscrizione6} alt="Iscrizione6" />
+                    <img src={Iscrizione6} />
                 </div>
                 <div class="item8"> Difesa da pugno basso
                     <br /><br />
@@ -304,7 +301,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item9">
-                    <img src={Iscrizione7} alt="Iscrizione7" />
+                    <img src={Iscrizione7} />
                 </div>
                 <div class="item10"> Top ten - Western Conference
                     <br /><br />
@@ -317,7 +314,7 @@ function ArticleBar() {
                 </div>
 
                 <div class="item11">
-                    <img src={Iscrizione8} alt="Iscrizione8" />
+                    <img src={Iscrizione8} />
                 </div>
                     <div class="item12"> Kata Shotokan
                     <br /><br />
@@ -337,5 +334,42 @@ function ArticleBar() {
     );
 }
 
+function Header() {
+    return (
+        <>
+        <header> 
+        <div className="header">
+            <div>
+                <div className="header-item">
+                    <a href="menu.html"><img src={Header1} alt="Header1" className="square-1" /></a>
+                </div>
+                <div className="header-item">
+                    <a href="index.html"><img src={Header2} alt="Header2" className="square-2" /></a>
+                </div>
+            </div>
+            <div className="header-two">
+                <input type="text" placeholder="Cerca" className="header-two-input" />
+                <button type="submit" className="button-s"><img src={IconSearch} alt="IconSearch" className="img-src" /></button>
+            </div>
+            <div>
+                <div className="header-item">
+                    <a href=""><img src={Header3} alt="Header3" className="square-3" /></a>
+                </div>
+                <div className="header-item">
+                    <a href=""><img src={Header4} alt="Header4" className="square-4" /></a>
+                </div>
+                <div className="header-item">
+                    <a href=""><img src={Header5} alt="Header5" className="square-5" /></a>
+                </div>
+                <div className="header-item">
+                    <a href=""><img src={Header6} alt="Header6" className="square-6" /></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    </>
+    );
 
-export default ArticleBar;
+};
+
+
