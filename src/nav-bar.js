@@ -1,0 +1,225 @@
+import React from 'react';
+import './nav-bar.css';
+import './index.css';
+import {Home, Tendenze, Iscrizioni, Raccolta, Cronologia, GuardoPiuTardi, VideoPiaciuti, 
+        Playlist, Iscrizione1, Iscrizione2, Iscrizione3, Iscrizione4, Iscrizione5, Iscrizione6, 
+        Iscrizione7, Iscrizione8, MostraMeno, Premium, Film, Videogiochi, DalVivo, Impostazioni, 
+        Segnalazioni, Guida, Feedback} from './images/indexNavBar.js';
+
+
+function NavBar() {
+    return (
+<div>
+    <div className="main">
+        <div id="main-nav" className="main-nav">
+            <nav>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-home"> Home</li>
+                        </ul>
+                    </a>
+                </div>   
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-tendenze"> Tendenze</li>
+                        </ul>
+                    </a>
+                </div>   
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizioni"> Iscrizioni</li>
+                        </ul>
+                    </a>
+                </div>
+                <hr />
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-raccolta"> Raccolta</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-cronologia"> Cronologia</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-guardo-piu-tardi"> Guardo pi&ugrave; tardi</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-video-piaciuti"> Video piaciuti</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-playlist"> Playlist</li>
+                        </ul>
+                    </a>
+                </div>
+                <hr />
+                <h3 className="iscrizioni">ISCRIZIONI</h3>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizione-1"> Iscrizione-1</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizione-2"> Iscrizione-2</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizione-3"> Iscrizione-3</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizione-4"> Iscrizione-4</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizione-5"> Iscrizione-5</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizione-6"> Iscrizione-6</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizione-7"> Iscrizione-7</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-iscrizione-8"> Iscrizione-8</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-mostra-meno"> Mostra meno</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <hr />
+                <h3 className="iscrizioni">ALTRO DA YOUTUBE</h3>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-premium"> YouTube Premium</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-film"> Film su YouTube</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-videogiochi"> Videogiochi</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-dal-vivo"> Dal vivo</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <hr />
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-impostazioni"> Impostazioni</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-segnalazioni"> Cronologia segna...</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-guida"> Guida</li>
+                        </ul>
+                    </a>
+                </div>
+                <div className="nav-bar">
+                    <a href="">
+                        <ul className="nav-item">
+                            <li className="nav-feedback"> Invia feedback</li>
+                        </ul>
+                    </a>
+                </div>
+            
+                <hr />
+                <h6 className="yt-termini">
+            
+                Informazioni Stampa 
+                <br />
+                Copyright Contattaci Creator 
+                <br />
+                Pubblicit&agrave; Sviluppatori
+                <br /><br />
+                Termini Privacy
+                <br />
+                Norme e sicurezza
+                <br /> 
+                Prova le nuove funzioni
+                <br /><br /><br />
+                <div className="nav-copyr">© 2019 YouTube, LLC</div>
+            
+                </h6>
+            </nav>
+        </div>
+    </div>
+</div>
+    );
+}
+
+export default NavBar;
