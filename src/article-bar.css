@@ -1,10 +1,12 @@
-h4, .title-art {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h4,
+.title-art {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
     font-weight: normal;
 }
 
-p, .p-title-art {
+p,
+.p-title-art {
     border: 0px solid;
 }
 
@@ -14,14 +16,12 @@ video {
     padding-left: 0px;
     padding-right: 10px;
 }
- 
+
 .video-col {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: 100px;
-    grid-template-areas: 
-      "a b c d";
+    grid-template-areas: "a b c d";
     align-items: start;
 }
 
@@ -42,11 +42,13 @@ video {
 }
 
 .video-col-tx {
-    display: grid;
-    grid-template-columns: repeat(16, [col-start] 1fr);
-    grid-gap: 15px;
-    grid-auto-rows: 100px;
+    display: flex;
+    flex-direction: row;
+}
 
+.channel-icon {
+    margin-right: 8px;
+    padding: 4px;
 }
 
 .item5 {
@@ -55,7 +57,7 @@ video {
 
 .item6 {
     grid-column: col-start 2 / span 3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     font-weight: normal;
 }
@@ -66,17 +68,17 @@ video {
 
 .item8 {
     grid-column: col-start 6 / span 3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     font-weight: normal;
 }
-  
+
 .item9 {
     grid-column: col-start 9 / span 1;
 }
 .item10 {
     grid-column: col-start 10 / span 3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     font-weight: normal;
 }
@@ -85,15 +87,14 @@ video {
 }
 .item12 {
     grid-column: col-start 14 / span 3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     font-weight: normal;
 }
 
 .description {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
     font-size: small;
     color: #555;
 }
-
