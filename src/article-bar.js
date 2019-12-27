@@ -1,7 +1,13 @@
 import React from 'react';
+<<<<<<< HEAD
 import './css/article-bar.css';
 import './css/index.css';
 import {Iscrizione1, Iscrizione2, Iscrizione3, Iscrizione4, Iscrizione5, Iscrizione6, Iscrizione7, Iscrizione8} from './images_js/indexArticleBar.js';
+=======
+import './article-bar.css';
+import './index.css';
+import {Iscrizione1, Iscrizione2, Iscrizione3, Iscrizione4, Iscrizione5, Iscrizione6, Iscrizione7, Iscrizione8} from './images/indexArticleBar.js';
+>>>>>>> 1af6298c06ec20074838d3ccf557c214b6807f80
 
 
 function ArticleBar() {

@@ -1,6 +1,11 @@
 import React from 'react';
+<<<<<<< HEAD
 import './css/nav-bar.css';
 import './css/index.css';
+=======
+import './nav-bar.css';
+import './index.css';
+>>>>>>> 1af6298c06ec20074838d3ccf557c214b6807f80
 
 
 function NavBar() {
