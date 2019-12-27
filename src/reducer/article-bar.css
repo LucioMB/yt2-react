@@ -1,0 +1,100 @@
+h4,
+.title-art {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+p,
+.p-title-art {
+    border: 0px solid;
+}
+
+video {
+    width: 200px;
+    height: 100px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.video-col {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: "a b c d";
+    align-items: start;
+}
+
+.item1 {
+    grid-area: a;
+}
+
+.item2 {
+    grid-area: b;
+}
+
+.item3 {
+    grid-area: c;
+}
+
+.item4 {
+    grid-area: d;
+}
+
+.video-col-tx {
+    display: flex;
+    flex-direction: row;
+}
+
+.channel-icon {
+    margin-right: 8px;
+    padding: 4px;
+}
+
+.item5 {
+    grid-column: col-start 1 / span 1;
+}
+
+.item6 {
+    grid-column: col-start 2 / span 3;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.item7 {
+    grid-column: col-start 5 / span 1;
+}
+
+.item8 {
+    grid-column: col-start 6 / span 3;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.item9 {
+    grid-column: col-start 9 / span 1;
+}
+.item10 {
+    grid-column: col-start 10 / span 3;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+.item11 {
+    grid-column: col-start 13 / span 1;
+}
+.item12 {
+    grid-column: col-start 14 / span 3;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.description {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: small;
+    color: #555;
+}

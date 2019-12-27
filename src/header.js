@@ -1,7 +1,7 @@
 import React from 'react';
-import './header.css';
-import './index.css';
-import {Header1, Header2, IconSearch, Header3, Header4, Header5, Header6} from './images/indexHeader.js';
+import './css/header.css';
+import './css/index.css';
+import {Header1, Header2, IconSearch, Header3, Header4, Header5, Header6} from './images_js/indexHeader.js';
 
 
 function Header() {
