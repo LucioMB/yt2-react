@@ -1,13 +1,7 @@
 import React from 'react';
-<<<<<<< HEAD
 import './css/header.css';
 import './css/index.css';
 import {Header1, Header2, IconSearch, Header3, Header4, Header5, Header6} from './images_js/indexHeader.js';
-=======
-import './header.css';
-import './index.css';
-import {Header1, Header2, IconSearch, Header3, Header4, Header5, Header6} from './images/indexHeader.js';
->>>>>>> 1af6298c06ec20074838d3ccf557c214b6807f80
 
 
 function Header() {
