@@ -1,10 +1,47 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./nav-bar.css";
 import "./index.css";
+import { navBarLink } from "./actions/nav_bar";
+
+import { useSelector,useDispatch } from "react-redux";
 
 function NavBar() {
+    const dispatch = useDispatch();
+    const navBar = useSelector(state => state.navBar);
+
+    useEffect(() => {
+        fetch("http://localhost:8081/navBar")
+            .then(res => res.json())
+            .then(json => {
+                const action = navBarLink(json.navBar);
+                dispatch(action);
+            });
+    }, [dispatch]);
+
+    console.log(navBar);
+
     return (
-        <div>
+        
+/*            <div className="main">
+                <div id="main-nav" className="main-nav">
+                    <nav>
+                    <div className="nav-bar">
+                           {navBar.map((v, i) => (
+                                <div key={v.name}>
+                                    <a href={v.url}></a>
+                                </div>
+                                <div key={v.nameIs}>
+                                    <a href={v.url}></a>
+                                </div>
+                                <div key={v.namePrf}>
+                                    <a href={v.url}></a>
+                                </div>
+                                <div key={v.nameCopy}
+                                    <a href={v.url}></a>
+                                </div>
+                            ))}
+                    </div>
+*/
             <div className="main">
                 <div id="main-nav" className="main-nav">
                     <nav>
@@ -214,7 +251,7 @@ function NavBar() {
                     </nav>
                 </div>
             </div>
-        </div>
+        
     );
 }
 
