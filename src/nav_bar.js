@@ -1,6 +1,6 @@
-export default ( state = [], { type, payload }) => {
+export default (state = [], { type, payload }) => {
     switch (type) {
-        case "HEADERS_SEARCH":
+        case "NAV_BAR_LINK":
             return payload;
         default:
             return state;
